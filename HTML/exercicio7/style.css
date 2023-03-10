@@ -65,11 +65,11 @@ aside a {/*altera as propriedades dos links*/
     text-decoration: none;
 }
 aside  li {
-    color: aquamarine;
+    color: white;
     display: block;
 }
 aside a:hover {
     color: azure;
     text-decoration: none;
-    background: beige;
+    background: black;
 }
