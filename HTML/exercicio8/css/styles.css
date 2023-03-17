@@ -78,6 +78,13 @@ body {
     padding: 20px;
     height: 200px;
 }
+.rodape {
+    color: white;
+    background-color: rgb(110, 34, 57);
+    padding: 0.5%;
+    font-size: xx-small;
+    text-align: center;
+}
 
 @media screen and (max-width: 500px) {
     .coluna, .barra_nav {
@@ -91,5 +98,8 @@ body {
     .note {
         background-color: rgb(16, 16, 85);
         color: white;
+    }
+    .rodape {
+        background-color:rgb(16, 16, 85);;
     }
 }
