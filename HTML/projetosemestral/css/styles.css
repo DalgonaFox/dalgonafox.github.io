@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 12px;
+    margin: 0;
+}
+.cabecalho {
+    background-color: #0E8A65;
+    border-radius: 0px;
+    padding: 5px
+    
+}
+.imagem {
+    position: absolute;
+    width: 157px;
+    height: 96px;
+    left: 141px;
+    top: 232px;
+    background: url(imagens/facilitador.png);
+    background-blend-mode: darken;
+}
+.coluna {
+    display: flex;
+    flex-wrap: initial;
+}
+.banner { 
+    display: flex;
+}
+.direita {
+    width: 80%;
+    background-color: white;
+}
+.texto {
+    width: 80%;
+    padding: 20px;
+    position: absolute;
+    width: 231px;
+    height: 445px;
+    left: 109px;
+    top: 347px;
+    background: #92DC91;
+}
+
+.botao {
+    position: absolute;
+    width: 231px;
+    height: 58px;
+    left: 109px;
+    top: 820px;
+    background: #93D7BE;
+    text-align: center;
+    color: black;
+}
+.lateral {
+    height: 853px;
+    width: 86px;
+    left: 0px;
+    top: 64px;
+    border-radius: 0px;
+    background-color: #0E8A65; 
+   
+}
+.materia {
+    background-color: #D9D9D9;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 86px;
+    left: -1px;
+    top: 631px;
+    border-radius: 0px;
+    text-align: center;
+    align-items: center; 
+
+    vertical-align: middle;
+}
+.materia a {
+    color: rgb(0, 0, 0);
+    padding: 14px 5px;
+    text-decoration: none;
+    text-align: center;
+}
+.materia a:hover{
+    background-color: white;
+    color: black;
+}
+.rodape {
+    background-color: #0E8A65;
+    border-radius: 0px;
+    padding: 20px
+}
+
+.amarelo{
+    position: absolute;
+    width: 86px;
+    height: 66px;
+    left: 0px;
+    top: 0px;
+    background: #FFB802;
+}
+.facilita {
+    height: 59px;
+    width: 97px;
+    left: 108px;
+    top: 7px;
+    border-radius: 0px;    
+    position: relative;
+}
+.rodape{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: left;
+    color: white;
+}
