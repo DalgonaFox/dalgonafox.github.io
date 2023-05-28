@@ -1,0 +1,107 @@
+Página Inicial:
+
+Início
+Sobre o Torneio
+Calendário de Jogos
+Regras e Regulamentos
+Contato
+Página de Equipes:
+
+Equipes Participantes
+Classificação
+Estatísticas das Equipes
+Jogadores Destaques
+Histórico de Campeões
+Página de Jogos:
+
+Próximos Jogos
+Resultados e Pontuações
+Destaques do Jogo
+Melhores Momentos
+Álbuns de Fotos
+Página de Notícias:
+
+Últimas Notícias
+Entrevistas com Jogadores
+Cobertura da Imprensa
+Curiosidades do Torneio
+Vídeos Destacados
+Página de Contato:
+
+Formulário de Contato
+Perguntas Frequentes
+Patrocínios e Parcerias
+Mídia e Imprensa
+Redes Sociais
+
+
+Camisetas
+Países Interclasse
+Mascote
+
+6 suécia 1°A
+15 inglaterra 1°B
+11 alemanha 1°C
+8 país de gales 1°D
+15 espanha 1°E
+3 grécia 2°A
+2 portugal 2°B
+7 bélgica 2°C
+15 suíça 2°D
+15 frança 2°E
+5 dinamarca 3°A
+9 finlâdia 3°B
+10 escórcia 3°C
+1 itália 3°D
+4 turquia 3°E
+
+Na ordem:
+Itália 3°D
+Portugal 2°B
+Grécia 2°A
+Turquia 3°E
+Dinamarca 3°A
+Suécia 1°A
+Bélgica 2°C
+País de Gales 1°D
+Finlândia 3°B
+Escócia 3°C
+Alemanha 1°C
+Inglaterra 1°B
+Espanha 1°E
+Suíça 2°D
+França 2°E
+
+ordem decrescente:
+França 2°E
+Suíça 2°D
+Espanha 1°E
+Inglaterra 1°B
+Alemanha 1°C
+Escócia 3°C
+Finlândia 3°B
+País de Gales 1°D
+Bélgica 2°C
+Suécia 1°A
+Dinamarca 3°A
+Turquia 3°E
+Grécia 2°A
+Portugal 2°B
+Itália 3°D
+
+Modalidades de quadra:
+cabo de guerra
+dodgeball
+handebol
+futebol
+basquete
+voleibol
+
+Jogos de Tabuleiro:
+xadrez
+damas
+
+E-sports:
+just dance
+fifa
+
