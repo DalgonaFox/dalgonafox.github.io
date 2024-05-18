@@ -253,3 +253,191 @@ body {
 .alternativabotao1.incorrect {
     background-color: #ce0919;
 }
+
+@media screen and (max-width: 470px) {
+    .titulo {
+      font-size: 43.6px;
+      margin: 5px;
+    }
+
+    .titulo2 {
+       font-size: 44.13px;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .botoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+  
+    .botao {
+      width: 196.74px;
+      height: 77.39px;
+      font-size: 43.6px;
+      margin: 5px;
+    }
+  
+    .flashcards {
+      width: 311.33px;
+      height: 78px;
+      font-size: 24px;
+    }
+
+    .texto {
+        color: white;
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+
+    .imagem {
+        width: 241px;
+        height: 241px;
+    }
+
+    .container2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+    }
+    
+    .direita {
+        flex: 10%;
+        display: flex; /* Make it a flex container */
+        flex-direction: column;
+    }
+    
+    .flashcard-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 0%; /* Ensure the card takes the full width */
+        height: 100%; /* Ensure the card takes the full height */
+        margin-bottom: -30%;
+    }
+    
+    .alternativabotao1 {
+        display: flex;
+        border-radius: 5px;
+        width: 234.14px;
+        height: 42.39px;
+        border-width: 0;
+        background-color: #F4BAD2;
+        font-family: 'LondrinaSolid-Regular';
+        margin: 10px;
+        font-size: 23.88px;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    
+    .alternativa {
+        display: flex; /* Make the container a flex container */
+        flex-direction: column; /* Arrange the items vertically */
+        align-items: center; /* Center the items horizontally */
+    }
+    
+    .alternativatexto {
+        font-size: 25.77px;
+        color: white;
+    }
+    
+    .alternativabotao1:hover {
+        background-color: #DC1467;
+    }
+    
+    /* Add styles for the selected button */
+    .alternativabotao1.selected {
+        background-color: #DC1467;
+        color: white;
+    }
+    
+    .card-front, 
+    .card-back {
+        display: flex;
+        flex-direction: column;
+        width: 276.53px;
+        height: 348.48px;
+        background-color: #F4BAD2;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+    }
+    
+    .card {
+        width: 276.53px;
+        height: 348.48px;
+        position: relative;
+        perspective: 1000px; /* Define a perspectiva para a animação 3D */
+    }
+    
+    .card-inner {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        transition: transform 0.5s; /* Adiciona uma transição suave para a transformação */
+        transform-style: preserve-3d; /* Permite que os filhos mantenham suas posições 3D */
+    }
+    
+    .card.flipped .card-inner {
+        transform: rotateY(-180deg); /* Vira a carta 180 graus quando ela está virada */
+    }
+    
+    .card-front,
+    .card-back {
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden; /* Oculta o verso da carta quando ela é virada */
+    }
+    
+    .card-front {
+        position: absolute;
+        z-index: 2; /* Garante que a frente da carta esteja na parte superior */
+    }
+    
+    .card-back {
+        position: absolute;
+        z-index: 1;
+        transform: rotateY(180deg); /* Inicialmente, a parte de trás da carta está virada */
+    }
+    
+    
+    .conferir-container {
+        /* Align the container to the right */
+        display: flex;
+        align-self: flex-end;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .pontuacao {
+        /* Align the container to the right */
+        align-self: center;
+    }
+    .conferir {
+        width: 130.8px;
+        height: 51.45px;
+        background-color: #F4BAD2;
+        align-content: center;
+        justify-content: center;
+        border-radius: 10px;
+        border-width: 0;
+        font-family: 'LondrinaSolid-Regular';
+        cursor: pointer;
+        align-self: center;
+    }
+  }
