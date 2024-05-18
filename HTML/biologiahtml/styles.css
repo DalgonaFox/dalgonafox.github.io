@@ -325,7 +325,7 @@ body {
         align-items: center;
         width: 0%; /* Ensure the card takes the full width */
         height: 100%; /* Ensure the card takes the full height */
-        margin-bottom: -5%;
+        margin-bottom: -10%;
     }
     
     .alternativabotao1 {
