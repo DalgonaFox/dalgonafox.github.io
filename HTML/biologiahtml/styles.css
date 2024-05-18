@@ -254,7 +254,7 @@ body {
     background-color: #ce0919;
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 550px) {
     .titulo {
       font-size: 43.6px;
       margin: 5px;
