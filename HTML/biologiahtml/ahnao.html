@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      AOS.init();
+    });
+  </script>
+  <link rel="shortcut icon" type="imagex/png" href="./img/profase.png">
+  <title>Ah não!</title>
+</head>
+<body>
+  <div class="container" data-aos="zoom-in-up" data-aos-duration="800">
+
+    <div class="navegacao">
+      <button class="botaonav" style="    border-top-left-radius: 10px; border-bottom-left-radius: 10px;"><a href="index.html" class="semlink">Home</a></button>
+      <button class="botaonav">
+        <a href="interfase.html" class="semlink">Interfase</a>
+      </button>
+      <button class="botaonav"><a href="mitose.html" class="semlink">Mitose</a></button>
+      <button class="botaonav"><a href="meiose.html" class="semlink">Meiose</a></button>
+      <button class="botaonav" style="    border-top-right-radius: 10px; border-bottom-right-radius: 10px;"><a href="flashcards.html" class="semlink">Flashcards</a></button>
+    </div>
+    
+      <p class="titulo2">Ah não!</p>
+
+      <p class="texto">Voce perdeu e acertou:</p>
+
+      <p class="titulo" id="final-score" style="margin-top: 10px;">1/10 :(</p>
+      <div class="botoes">
+        <button class="botao">
+            <a href="index.html"><span class="titulo">Voltar</span></a> 
+        </button>
+      </div>
+      <script>
+        // Recupera a pontuação do localStorage
+        const finalScore = localStorage.getItem('finalScore');
+        const totalQuestions = 9; // ou quizData.length se você estiver usando um arquivo JS compartilhado
+        document.getElementById('final-score').innerText = `${finalScore}/${totalQuestions} :(`;
+    </script>
+  </div>
+</body>
+</html>
