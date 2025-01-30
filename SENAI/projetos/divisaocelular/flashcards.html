@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      AOS.init();
+    });
+  </script>
+  <link rel="shortcut icon" type="imagex/png" href="./img/profase.png">
+  <title>FlashCards</title>
+</head>
+<body style="background-color: #DD769B;">
+    <div class="container0">
+
+        <div class="navegacao">
+            <button class="botaonav2" style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"><a href="index.html" class="semlink">Home</a></button>
+            <button class="botaonav2">
+              <a href="interfase.html" class="semlink">Interfase</a>
+            </button>
+            <button class="botaonav2"><a href="mitose.html" class="semlink">Mitose</a></button>
+            <button class="botaonav2"><a href="meiose.html" class="semlink">Meiose</a></button>
+            <button class="botaonav2" style="    border-top-right-radius: 10px; border-bottom-right-radius: 10px;"><a href="iniciar.html" class="semlink">Flashcards</a></button>
+          </div>
+
+    <div class="container2">
+
+        <div class="flashcard-card" data-aos="fade-right" data-aos-duration="800">
+            <div class="card" id="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img id="question-image" src="" alt="meiose" class="imagem">
+                    </div>
+                    <div class="card-back">
+                        <p id="explain-text" class="texto">Explicação</p>
+                    </div>
+                </div>
+            </div>        
+
+            <div class="pontuacao">
+                <p class="texto" id="score">Pontuação: 0/0</p>
+            </div>
+        </div>
+
+        <div class="direita" id="quiz" data-aos="fade-left" data-aos-duration="800">
+
+            <div class="alternativa">
+                <p class="texto" id="question">Question text</p>
+                <div id="a" onclick="selectAnswer('a')" class="alternativabotao1">Answer</div>
+                <div id="b" onclick="selectAnswer('b')" class="alternativabotao1">Answer</div>
+                <div id="c" onclick="selectAnswer('c')" class="alternativabotao1">Answer</div>
+                <div id="d" onclick="selectAnswer('d')" class="alternativabotao1">Answer</div>
+            </div>
+
+            <div class="conferir-container">
+                <button class="conferir" id="submit">
+                    <span class="alternativatexto">Conferir</span>
+                </button>  
+                <button class="conferir" style="display:none;" id="next">
+                    <span class="alternativatexto">Próximo</span>
+                </button> 
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="scripts.js"></script>
+</body>
+</html>

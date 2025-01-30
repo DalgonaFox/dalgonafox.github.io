@@ -1,0 +1,107 @@
+*{
+box-sizing: border-box;
+}
+/*Estilo do body*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.note {
+    color: white;
+    background-color: rgb(110, 34, 57);
+    padding: 0.5%;
+    font-size: xx-small;
+    text-align: center;
+}
+
+.banner {
+    text-align: center;
+    padding: 60px;
+    background-image: url(../imagem/Bannernotebookfr.png);
+    background-size: cover;
+    color: rgb(213, 133, 156);
+}
+
+/*Estilo da Barra de Navegação*/
+.barra_nav {
+    display: flex;
+    background-color: black;
+}
+
+/*Estilo dos links da barra de navegação*/
+.barra_nav a {
+    color: white;
+    padding: 14px 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*Trocar a cor de fundo quando o cursor estiver sobre o link*/
+.barra_nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+/*Configurar a div coluna*/
+.coluna {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Criar 2 colunas desiguais (30 e 70%)*/
+.lateral {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.principal {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+/*Imagens falsas apenas para marcação do espaço*/
+.imagem_falsa {
+    background-color: rgb(215, 162, 177);
+    width: 100%;
+    padding: 20px;
+    height: 200px;
+}
+.imagem_falsa2 {
+    background-color: aqua;
+    width: 100%;
+    padding: 20px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+.imagem_falsa3 {
+    background-color: rgb(208, 255, 0);
+    width: 100%;
+    padding: 20px;
+    height: 200px;
+}
+.rodape {
+    color: white;
+    background-color: rgb(110, 34, 57);
+    padding: 0.5%;
+    font-size: xx-small;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .coluna, .barra_nav {
+        flex-direction: column;
+    }
+    .banner {
+        background-image: url(../imagem/Bannercelularfr.png);
+        background-size: cover;
+        color: white;
+    }
+    .note {
+        background-color: rgb(16, 16, 85);
+        color: white;
+    }
+    .rodape {
+        background-color:rgb(16, 16, 85);;
+    }
+}

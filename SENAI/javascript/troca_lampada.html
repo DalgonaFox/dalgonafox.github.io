@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão que troca a imagem</title>
+</head>
+<body>
+    <script>
+        function trocaImagem() {
+            var element=document.getElementById("MinhaImagem");
+            if (element.src.match("acesa")) {element.src="lampadaapagada.png";
+        }
+        else {
+            element.src="lampadaacesa.png";
+        }
+        }
+    </script>
+    <p><img id="MinhaImagem" onclick="trocaImagem()" src="lampadaapagada.png" width="100" height="150"></p>
+    <p>Clique na lâmpada para ligar/desligar a luz</p>
+</body>
+</html>
