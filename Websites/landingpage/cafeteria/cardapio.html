@@ -1,12 +1,321 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content=" width=device-width, initial-scale=1.0">
-    <title>Cardápio</title>
-    <link rel="stylesheet" src="./styles.css">
-  </head>
-  <body>
-    
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Fontes e Ícones-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <title>Cardápio</title>
+</head>
+<header class="bg-home">
+  <nav class="header-content">
+    <div class="header-icons" data-aos="fade-down" style="width: 25%;">
+      <a href="#">
+        <i class="fa-brands fa-instagram fa-2x"></i>
+        </i>
+      </a>
+      <a href="#">
+        <i class="fa-brands fa-facebook fa-2x"></i>
+        </i>
+      </a>
+      <a href="#">
+        <i class="fa-brands fa-twitter fa-2x"></i>
+        </i>
+      </a>
+    </div>
+    <div class="logo" data-aos="fade-up" data-aos-delay="300" style="width: 50%;">
+      <img src="img/logo.png" alt="logo da loja">
+    </div>
+    <div data-aos="fade-down" style="width: 25%; justify-content: end; display: flex;">
+      <a href="#" class="reserve">
+        Reserve um Horário
+      </a>
+    </div>
+
+  </nav>
+
+  <div class="slogan" data-aos="fade-up" data-aos-delay="300">
+    <h1>CARDÁPIO</h1>
+    <p style="width: 55%">Nosso cardápio foi criado para satisfazer todos os paladares, oferecendo uma ampla variedade de cafés artesanais, desde o clássico espresso até combinações exclusivas.</p>
+    <a style="margin-top: 40px;" href="./index.html" class="cardapio">Voltar para Home</a>
+  </div>
+</header>
+
+<body class="inter-regular">
+  <div class="favoritos">
+    <div class="favoritos-description">
+      <h2>FAVORITOS</h2>
+    </div>
+
+    <div class="produtos" data-aos="fade-up">
+      <div class="comida">
+        <img src="img/cafeaulait.png" alt="Café au lait">
+        <div class="comida-info">
+          <strong>Café au lait</strong>
+          <button>R$ 13,00</button>
+        </div>
+      </div>
+      <div class="comida">
+        <img src="img/bolo.png" alt="Bolo de Chocolate">
+        <div class="comida-info">
+          <strong>Bolo de Chocolate</strong>
+          <button>R$ 15,00</button>
+        </div>
+      </div>
+      <div class="comida">
+        <img src="img/queijo.png" alt="Pão de Queijo">
+        <div class="comida-info">
+          <strong>Pão de Queijo</strong>
+          <button>R$ 8,00</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="services">
+    <div class="services-content">
+      <h2>CAFÉS ARTESANAIS</h2>
+
+      <div class="cardapio-cards" data-aos="fade-up">
+        <div class="linha-cards">
+          <div class="prato">
+            <img src="img/espresso.png" alt="Espresso">
+            <div class="prato-info">
+              <h6>Espresso</h6>
+              <p>Clássico e intenso. Perfeito para os puristas.</p>
+              <button>R$ 6,00</button>
+            </div>
+          </div>
+          <div class="prato">
+            <img src="img/latte.png" alt="Latte">
+            <div class="prato-info">
+              <h6>Latte</h6>
+              <p>Uma dose de espresso com leite vaporizado e um toque de espuma.</p>
+              <button>R$ 10,00</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="linha-cards">
+          <div class="prato">
+            <img src="img/cafeaulait.png" alt="Café au Lait">
+            <div class="prato-info">
+              <h6>Café au Lait</h6>
+              <p>Espresso combinado com leite vaporizado e espuma cremosa.</p>
+              <button>R$ 9,00</button>
+            </div>
+          </div>
+          <div class="prato">
+            <img src="img/mocha.png" alt="Mocha">
+            <div class="prato-info">
+              <h6>Mocha</h6>
+              <p>Café, chocolate e leite vaporizado, finalizado com chantilly.</p>
+              <button>R$ 12,00</button>
+            </div>
+          </div>
+        </div>
+        <div class="linha-cards-sobra">
+          <div class="prato">
+            <img src="img/coldbrew.png" alt="Cold Brew">
+            <div class="prato-info">
+              <h6>Cold Brew</h6>
+              <p>Café gelado preparado lentamente para um sabor suave.</p>
+              <button>R$ 8,00</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="services">
+    <div class="services-content">
+      <h2>CHÁS E BEBIDAS</h2>
+
+      <div class="cardapio-cards" data-aos="fade-up">
+        <div class="linha-cards">
+          <div class="prato">
+            <img src="img/preto.png" alt="Chá Preto">
+            <div class="prato-info">
+              <h6>Chá Preto</h6>
+              <p>Rico e reconfortante.</p>
+              <button>R$ 7,00</button>
+            </div>
+          </div>
+          <div class="prato">
+            <img src="img/chaverde.png" alt="Chá Verde">
+            <div class="prato-info">
+              <h6>Chá Verde com Limão</h6>
+              <p>Refrescante e revigorante.</p>
+              <button>R$ 7,50</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="linha-cards">
+          <div class="prato">
+            <img src="img/laranja.png" alt="Suco de Laranja">
+            <div class="prato-info">
+              <h6>Suco de Laranja</h6>
+              <p>Feito na hora com frutas frescas.</p>
+              <button>R$ 8,00</button>
+            </div>
+          </div>
+          <div class="prato">
+            <img src="img/smoothie.png" alt="Smoothie de Frutas Vermelhas">
+            <div class="prato-info">
+              <h6>Smoothie de Frutas Vermelhas</h6>
+              <p>Uma mistura cremosa de morango, amora e framboesa.</p>
+              <button>R$ 12,00</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="services">
+    <div class="services-content">
+      <h2>LANCHES E ACOMPANHAMENTOS</h2>
+
+      <div class="cardapio-cards" data-aos="fade-up">
+        <div class="linha-cards">
+          <div class="prato">
+            <img src="img/queijo.png" alt="Pão de Queijo">
+            <div class="prato-info">
+              <h6>Pão de Queijo</h6>
+              <p>Crocante por fora, macio por dentro.</p>
+              <button>R$ 5,00</button>
+            </div>
+          </div>
+          <div class="prato">
+            <img src="img/geleia.png" alt="Torrada com Geleia">
+            <div class="prato-info">
+              <h6>Torrada com Geleia Artesanal</h6>
+              <p>Servida com manteiga ou geleia caseira.</p>
+              <button>R$ 10,00</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="linha-cards">
+          <div class="prato">
+            <img src="img/lanche.png" alt="Sanduíche de Queijo e Tomate">
+            <div class="prato-info">
+              <h6>Sanduíche de Queijo e Tomate</h6>
+              <p>Pão fresco recheado com queijo derretido e fatias de tomate.</p>
+              <button>R$ 10,00</button>
+            </div>
+          </div>
+          <div class="prato">
+            <img src="img/pao.png" alt="Pão na Chapa">
+            <div class="prato-info">
+              <h6>Pão na Chapa com Manteiga</h6>
+              <p>Crocante e douradinho.</p>
+              <button>R$ 3,00</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="services">
+    <div class="services-content">
+      <h2>SOBREMESAS</h2>
+
+      <div class="cardapio-cards" data-aos="fade-up">
+        <div class="linha-cards">
+          <div class="prato">
+            <img src="img/torta.png" alt="Torta de Limão">
+            <div class="prato-info">
+              <h6>Torta de Limão</h6>
+              <p>Base crocante com recheio cremoso e cobertura de merengue.</p>
+              <button>R$ 12,00</button>
+            </div>
+          </div>
+          <div class="prato">
+            <img src="img/brownie.png" alt="Brownie com Sorvete">
+            <div class="prato-info">
+              <h6>Brownie com Sorvete</h6>
+              <p>Brownie de chocolate acompanhado de uma bola de sorvete de creme.</p>
+              <button>R$ 15,00</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="linha-cards">
+          <div class="prato">
+            <img src="img/maracuja.png" alt="Mousse de Maracujá">
+            <div class="prato-info">
+              <h6>Mousse de Maracujá</h6>
+              <p>Leve e refrescante, com um toque cítrico.</p>
+              <button>R$ 10,00</button>
+            </div>
+          </div>
+          <div class="prato">
+            <img src="img/bolo.png" alt="Bolo de Chocolate">
+            <div class="prato-info">
+              <h6>Bolo de Chocolate</h6>
+              <p>Bolo de chocolate recheado com morango e chantilly.</p>
+              <button>R$ 6,00</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <footer class="footer">
+    <div class="footer2" data-aos="fade-up">
+      <div class="footer-icons">
+        <a href="#">
+          <i class="fa-brands fa-instagram fa-2x"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-facebook fa-2x"></i>
+          </i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-twitter fa-2x"></i>
+          </i>
+        </a>
+      </div>
+      <div style="margin-bottom: 20px;">
+        <img src="img/logo.png" alt="logo kalimba">
+      </div>
+      <p>Copyright© 2024 | Café Sabor e Alma - Todos os direitos reservados.</p>
+    </div>
+
+  </footer>
+
+
+  <!--Botão Whatsapp-->
+  <a href="https://wa.me//5511000000000?text=Quero%20fazer%20em%20um%20agendamento%20hoje!" class="btn-whatsapp"
+    target="_blank" data-aos="fade-up">
+    <img src="img/zap.png" alt="Botão do Whatsapp--">
+    <span class="tooltip-text">Faça sua Reserva</span>
+  </a>
+  <script src="script.js"></script>
+</body>
+
 </html>
