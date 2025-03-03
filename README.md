@@ -1,7 +1,7 @@
 # dalgonafox.github.io
 Esse repositório contém todos os exercícios desenvolvidos por mim durante o curso Técnico em Desenvolvimento de Sistemas pelo SENAI!
 ...e também alguns projetos mais simples em andamento.
-> Eu utilizo esse repositório como uma forma de por sites pelo ar também. se você quer ver algo que eu fiz que está aqui rodando, basta digitar "https://dalgonafox.github.io/[insira caminho desejado aqui]".
+> Eu utilizo esse repositório como uma forma de por sites pelo ar também. se você quer ver algo que eu fiz que está aqui rodando, basta digitar "https://dalgonafox.github.io/ [insira caminho desejado aqui]".
 > Por exemplo, o link "https://dalgonafox.github.io/SENAI/htmlcss/primeirohtml/" irá te direcionar ao primeiro arquivo em HTML que eu já fiz na vida, e ele está dentro desse repositório!
 
 Existem duas pastas principais:
