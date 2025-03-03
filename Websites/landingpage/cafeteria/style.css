@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,17 +7,17 @@
 }
 
 .inter-regular {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .inter-medium {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
-    font-style: normal; 
+    font-style: normal;
 }
 
 .font18 {
@@ -25,7 +25,7 @@
 }
 
 .font44 {
- font-size: 44px;
+    font-size: 44px;
 }
 
 /*Header*/
@@ -109,6 +109,7 @@ i {
     margin: 14px 0;
     text-shadow: 2px 4px 12px black;
     font-size: 18px;
+    width: 55%;
 }
 
 .cardapio {
@@ -187,16 +188,17 @@ i {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 54px 24px;
+    padding: 34px 14px;
 }
+
 .services-content {
-   margin-bottom: 25px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   text-justify: center;
-   width: 100%;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-justify: center;
+    width: 100%;
 }
 
 .services-content h2 {
@@ -206,6 +208,7 @@ i {
     font-weight: 700;
     margin-bottom: 24px;
 }
+
 .services-content p {
     line-height: 150%;
     margin-bottom: 14px;
@@ -227,6 +230,16 @@ i {
     padding: 0 44px 34px 44px;
 }
 
+.responsivo {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 66.6%;
+}
+
 .comida {
     flex: 1;
     display: flex;
@@ -238,9 +251,10 @@ i {
     margin-top: 25px;
     color: #583115;
     font-weight: bold;
+    flex-grow: 1;
 }
 
-.comida  img {
+.comida img {
     width: 100%;
     height: 80%;
     text-align: center;
@@ -283,6 +297,7 @@ i {
     background-color: #ECDCAB;
     overflow: hidden;
 }
+
 .cliente {
     width: 25%;
     display: flex;
@@ -292,16 +307,19 @@ i {
     box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.45);
     overflow: hidden;
 }
+
 .cliente img {
     width: 100%;
     text-align: center;
     transition: transform .2s;
 }
+
 .cliente img:hover {
     transform: scale(1.2);
     z-index: 1;
     transition: transform .2s;
 }
+
 .cliente-info {
     width: 100%;
     line-height: 150%;
@@ -334,43 +352,46 @@ i {
     padding: 54px 0;
     gap: 24px;
     color: #ECDCAB;
-  }
+}
 
-  .footer2 {
+.footer2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
- 
-  .footer-icons {
+    text-align: center;
+}
+
+.footer-icons {
     display: flex;
     gap: 8px;
     color: #ECDCAB;
     margin-bottom: 20px;
-  }
+}
 
-  .footer-icons a:hover i {
+.footer-icons a:hover i {
     color: #9E6200;
 }
 
 /*Whatsapp*/
- 
-  .btn-whatsapp {
+
+.btn-whatsapp {
     position: fixed;
     bottom: 14px;
     right: 24px;
     z-index: 99;
-  }
-  .btn-whatsapp img {
+}
+
+.btn-whatsapp img {
     max-width: 74px;
     transition: transform 0.4s;
-  }
-  .btn-whatsapp img:hover {
+}
+
+.btn-whatsapp img:hover {
     transform: scale(1.1);
-  }
- 
-  .btn-whatsapp .tooltip-text {
+}
+
+.btn-whatsapp .tooltip-text {
     visibility: hidden;
     position: absolute;
     width: 120px;
@@ -383,16 +404,16 @@ i {
     color: #ECDCAB;
     opacity: 0;
     transition: opacity 0.4s;
-  }
- 
-  .btn-whatsapp:hover .tooltip-text {
+}
+
+.btn-whatsapp:hover .tooltip-text {
     visibility: visible;
     opacity: 1;
-  }
+}
 
 
-  /*Cardápio*/
-  .prato {
+/*Cardápio*/
+.prato {
     flex: 1;
     display: flex;
     flex-direction: row;
@@ -402,12 +423,15 @@ i {
     overflow: hidden;
     margin: 10px;
     height: 100%;
+    width: 100%;
 }
 
 .prato img {
     width: 33%;
     text-align: center;
     transition: transform .2s;
+    object-fit: cover;
+    height: 100%;
 }
 
 .prato img:hover {
@@ -451,7 +475,7 @@ i {
 .cardapio-cards {
     display: flex;
     flex-direction: column;
-    width: 75%;
+    width: 85%;
     gap: 16px;
     align-items: center;
     justify-content: center;
@@ -461,6 +485,7 @@ i {
 .linha-cards {
     display: flex;
     align-items: start;
+    height: 100%;
 }
 
 .linha-cards-sobra {
@@ -468,6 +493,7 @@ i {
     align-items: start;
     width: 50%;
     align-self: flex-start;
+    height: 100%;
 }
 
 .favoritos {
@@ -497,7 +523,6 @@ i {
 
 .favoritos-description {
     width: 65%;
-    padding: 50px;
 }
 
 .favoritos-description h2 {
@@ -506,4 +531,466 @@ i {
     margin-bottom: 24px;
     text-align: center;
     text-shadow: 2px 4px 12px black;
+}
+
+.logo-rodape {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        width: 100%;
+        height: 1100px;
+        
+    }
+    
+    .header-content {
+        display: flex;
+        align-items: start;
+        margin-bottom: 60px;
+        width: 100%;
+    }
+    
+    .bg-home {
+        position: relative;
+        background-image: url(img/home.png);
+        background-color: #583115;
+        background-size: cover;
+        padding: 40px;
+    }
+    
+    i {
+        color: #ECDCAB;
+    }
+    
+    .header-icons {
+        display: flex;
+        gap: 14px;
+    }
+    
+    .header-icons a:hover i {
+        color: #9E6200;
+    }
+    
+    .reserve {
+        border: 1px solid #ECDCAB;
+        color: #ECDCAB;
+        padding: 8px 24px;
+        border-radius: 8px;
+        background-color: transparent;
+        text-decoration: none;
+        transition: background-color 0.5s;
+        justify-self: end;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .reserve:hover {
+        border: 1px solid #9E6200;
+        background-color: #9E6200;
+    }
+    
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        align-self: center;
+    }
+
+    .logo img {
+        width: 350px;
+    }
+    
+    .slogan {
+        color: #ECDCAB;
+        min-height: 80v;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 14px;
+    }
+    
+    .slogan h1 {
+        text-align: center;
+        line-height: 150%;
+        max-width: 940px;
+        font-size: 34px;
+        text-shadow: 2px 4px 12px rgb(32, 32, 32);
+    }
+    
+    .slogan p {
+        text-align: center;
+        margin: 14px 0;
+        text-shadow: 2px 4px 12px black;
+        font-size: 18px;
+        width: 100%;
+    }
+    
+    .cardapio {
+        border: 1px solid #ECDCAB;
+        color: #ECDCAB;
+        text-decoration: none;
+        background-color: transparent;
+        padding: 15px;
+        font-size: 20px;
+        text-align: center;
+        align-content: center;
+        font-weight: 600;
+        margin: 0px;
+        border-radius: 8px;
+        width: 40%;
+        height: 100%;
+        transition: background-color 0.5s;
+    }
+    
+    .cardapio:hover {
+        background-color: #9E6200;
+        border: none;
+    }
+    
+    /*Sobre*/
+    
+    .sobre {
+        background-color: #583115;
+        color: #ECDCAB;
+        text-shadow: 2px 4px 12px black;
+        width: 100%;
+    }
+    
+    .sobre-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-justify: center;
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .sobre-imagem {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+    }
+
+    .sobre-imagem img {
+        display: flex;
+        justify-content: center;
+        width: 99%;
+    }
+    
+    .sobre-description {
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .sobre-description h2 {
+        font-size: 44px;
+        font-weight: 700;
+        margin-bottom: 24px;
+    }
+    
+    .sobre-description p {
+        margin-bottom: 20px;
+        line-height: 150%;
+        text-align: center;
+        width: 95%;
+    }
+    
+    /*Titulo e descrição*/
+    
+    .services {
+        background-color: #ECDCAB;
+        color: #583115;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 54px 24px;
+    }
+    
+    .services-content {
+        margin-bottom: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-justify: center;
+        width: 100%;
+    }
+    
+    .services-content h2 {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 44px;
+        font-weight: 700;
+        margin-bottom: 24px;
+    }
+    
+    .services-content p {
+        line-height: 150%;
+        margin-bottom: 14px;
+        text-align: center;
+        width: 95%;
+        font-size: 18px;
+        color: #323232;
+        justify-self: center;
+    }
+    
+    /*Cardápio*/
+    
+    .produtos {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 16px;
+        align-items: center;
+        justify-content: center;
+        padding: 0 44px 34px 44px;
+    }
+
+    .responsivo {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .comida {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        background-color: #ECDCAB;
+        border-radius: 8px;
+        box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.45);
+        overflow: hidden;
+        margin-top: 25px;
+        color: #583115;
+        font-weight: bold;
+        width: 50%;
+        flex-grow: 1;
+    }
+    
+    .comida img {
+        width: 100%;
+        height: 80%;
+        text-align: center;
+        transition: transform .2s;
+        object-fit: fill;
+    }
+    
+    .comida img:hover {
+        transform: scale(1.2);
+        z-index: 1;
+        transition: transform .2s;
+    }
+    
+    .comida-info {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 14px;
+        background-color: #ECDCAB;
+        z-index: 99;
+    }
+    
+    .comida-info button {
+        color: #ECDCAB;
+        background-color: #BF932A;
+        padding: 4px 8px;
+        border-radius: 4px;
+        border: 0;
+        cursor: default;
+    }
+    
+    /*Feedback*/
+    
+    .feedbacks {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        padding: 0 44px 34px 44px;
+        background-color: #ECDCAB;
+        overflow: hidden;
+    }
+    
+    .cliente {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        background-color: #ECDCAB;
+        border-radius: 8px;
+        box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.45);
+        overflow: hidden;
+    }
+    
+    .cliente img {
+        width: 100%;
+        text-align: center;
+        transition: transform .2s;
+    }
+    
+    .cliente img:hover {
+        transform: scale(1.2);
+        z-index: 1;
+        transition: transform .2s;
+    }
+    
+    .cliente-info {
+        width: 100%;
+        line-height: 150%;
+        display: flex;
+        justify-content: center;
+        padding: 14px;
+        background-color: #ECDCAB;
+        z-index: 99;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .cliente-info button {
+        color: #ECDCAB;
+        background-color: #9E6200;
+        padding: 4px 8px;
+        border-radius: 4px;
+        border: 0;
+        cursor: default;
+    }
+    
+    /*Rodapé*/
+    
+    .footer {
+        background-color: #583115;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 54px 0;
+        gap: 24px;
+        color: #ECDCAB;
+    }
+    
+    .footer2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .footer-icons {
+        display: flex;
+        gap: 8px;
+        color: #ECDCAB;
+        margin-bottom: 20px;
+    }
+    
+    .footer-icons a:hover i {
+        color: #9E6200;
+    }
+    
+    /*Whatsapp*/
+    
+    .btn-whatsapp {
+        position: fixed;
+        bottom: 14px;
+        right: 24px;
+        z-index: 99;
+    }
+    
+    .btn-whatsapp img {
+        max-width: 60px;
+        transition: transform 0.4s;
+    }
+    
+    .btn-whatsapp img:hover {
+        transform: scale(1.1);
+    }
+    
+    .btn-whatsapp .tooltip-text {
+        visibility: hidden;
+        position: absolute;
+        width: 100px;
+        top: 8px;
+        left: -144px;
+        padding: 6px;
+        border-radius: 8px;
+        text-align: center;
+        background-color: #583115;
+        color: #ECDCAB;
+        opacity: 0;
+        transition: opacity 0.4s;
+        font-size: 15px;
+    }
+    
+    .btn-whatsapp:hover .tooltip-text {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .linha-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    
+    .linha-cards-sobra {
+        display: flex;
+        align-items: start;
+        width: 100%;
+        align-self: flex-start;
+    }
+
+    .cardapio-cards {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 16px;
+        align-items: center;
+        justify-content: center;
+        padding: 0 44px 34px 44px;
+    }
+
+    .prato-info p {
+        font-size: 14px;
+        text-align: start;
+        width: 100%;
+    }
+    
+    .prato-info h6 {
+        font-size: 17px;
+    }
+    
+    .logo-rodape {
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-rodape img {
+        width: 60%;
+    }
+
+    .prato img{
+        height: 100%;
+        text-align: center;
+        transition: transform .2s;
+        object-fit: cover;
+        width: 33%;
+        text-align: center;
+    }
 }
