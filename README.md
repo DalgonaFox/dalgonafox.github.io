@@ -1,16 +1,18 @@
 # dalgonafox.github.io
-Um sistema para requisição de saída antecipada de alunos e inserção de atestado médico, com gerenciamento de turmas e cursos.
-O AutorizaSaída SENAI é um sistema web que facilita a solicitação e aprovação de saídas antecipadas de alunos em escolas. Ele permite que alunos façam pedidos de saída, enviem justificativas (como atestados médicos) e que os administradores analisem e aprovem as requisições.
-> Este projeto foi realizado como o Projeto de Conclusão do Curso Técnico em Desenvolvimento de Sistemas pelo SENAI. Para acessar o documento com o TCC completo, clique [aqui](https://autoriza.onrender.com/membros)
+Esse repositório contém todos os exercícios desenvolvidos por mim durante o curso Técnico em Desenvolvimento de Sistemas pelo SENAI!
+...e também alguns projetos mais simples em andamento.
 
-## Como Acessar?
+Existem duas pastas principais:
+- SENAI
+- Websites
 
+Na pasta SENAI tem meus exercícios e atividades, e em Websites tenho alguns redesigns de projetos antigos e sites da vida real, e tenho as landing pages que já fiz.
 
 ## Tecnologias
-O projeto foi desenvolvido com as seguintes tecnologias:
-- Frontend: HTML, CSS, Bootstrap, EJS;
-- Backend: Node.js, Express.js, MySQL;
-- Banco de Dados: MySQL.
+Esse repositório se constitui majoritariamente de:
+- HTML;
+- CSS;
+- JavaScript.
 
 ## Contato
 Caso tenha dúvidas ou sugestões, entre em contato:
