@@ -422,16 +422,23 @@ i {
     box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.45);
     overflow: hidden;
     margin: 10px;
-    height: 100%;
+    height: auto;
     width: 100%;
+    
 }
 
-.prato img {
-    width: 33%;
+.prato-imagem img {
+    width: 100%;
+    height: 100%;
     text-align: center;
     transition: transform .2s;
     object-fit: cover;
     height: 100%;
+    flex-grow: 1;
+}
+
+.prato-imagem {
+    width: 33%;
 }
 
 .prato img:hover {
@@ -484,7 +491,7 @@ i {
 
 .linha-cards {
     display: flex;
-    align-items: start;
+    align-items: stretch;
     height: 100%;
 }
 
@@ -522,7 +529,7 @@ i {
 }
 
 .favoritos-description {
-    width: 65%;
+    width: 85%;
 }
 
 .favoritos-description h2 {
@@ -541,7 +548,7 @@ i {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     header {
         width: 100%;
         height: 1100px;
@@ -695,13 +702,13 @@ i {
     }
     
     .sobre-description h2 {
-        font-size: 44px;
+        font-size: 36px;
         font-weight: 700;
         margin-bottom: 24px;
     }
     
     .sobre-description p {
-        margin-bottom: 20px;
+        margin-bottom: 70px;
         line-height: 150%;
         text-align: center;
         width: 95%;
@@ -732,7 +739,7 @@ i {
     .services-content h2 {
         text-transform: uppercase;
         text-align: center;
-        font-size: 44px;
+        font-size: 36px;
         font-weight: 700;
         margin-bottom: 24px;
     }
@@ -949,9 +956,11 @@ i {
     
     .linha-cards-sobra {
         display: flex;
+        flex-direction: column;
         align-items: start;
         width: 100%;
-        align-self: flex-start;
+        align-self: center;
+        height: 100%;
     }
 
     .cardapio-cards {
@@ -985,12 +994,41 @@ i {
         width: 60%;
     }
 
-    .prato img{
+    .prato-imagem {
+        width: 33%;
+    }
+
+    .prato-imagem img{
         height: 100%;
         text-align: center;
         transition: transform .2s;
         object-fit: cover;
-        width: 33%;
         text-align: center;
     }
+}
+
+@media (max-width: 520px) {
+    .responsivo {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .comida {
+        width: 100%;
+    }
+
+    .cliente {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: #ECDCAB;
+        border-radius: 8px;
+        box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.45);
+        overflow: hidden;
+    }
+
 }
