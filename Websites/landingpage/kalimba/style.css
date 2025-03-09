@@ -23,6 +23,10 @@ header {
     background-image: linear-gradient(transparent, transparent,  #8c3701);
 }
 
+.copyright {
+    text-align: center;
+}
+
 .bg-home::before {
     content: "";
     display: block;
@@ -443,5 +447,12 @@ i {
         flex-direction: column;
         gap: 50px;
         margin-bottom: 50px;
+    }
+    .hero h1 {
+        font-size: 35px;
+    }
+    .imagem-sobre img{
+        margin-top: 100px;
+        padding: 40px;
     }
 }
