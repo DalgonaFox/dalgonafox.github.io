@@ -8,6 +8,8 @@ Dentre as pastas aqui, temos:
 - backend: meus exercícios com JSON, JavaScript e EJS;
 - htmlcss: primeiros exercícios do curso, uma introdução ao HTML e CSS puro.
 - htmlcssjs: exercícios com HTML, CSS e JavaScript, um pouco mais polidos mas ainda mantendo a simplicidade.
+- javascript: Exercícios básicos com JavaScript.
+- POO: Atividades de reflexão e VisualG para Programação Orientada a Objetos.
 - projetos: sites um pouco mais complexos que foram desenvolvidos como exercícios, seja criando do zero ou modificando algo que o professor nos forneceu.
 
 ## Tecnologias

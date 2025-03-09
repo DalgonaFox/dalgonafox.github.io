@@ -1,6 +1,6 @@
 # Café Sabor e Alma
 Esse repositório contém uma Landing Page simples, desenvolvida para uma cafeteria fictícia para fins de aprendizado!
-> Você pode visualizar esse projeto no ar [aqui,](https://dalgonafox.github.io/Websites/landingpage/cafeteria/index.html) e ver o protótipo do Figma [aqui.](https://www.figma.com/design/wYO53FSGRCffKw0SLgArSx/Caf%C3%A9-Sabor-e-Alma?node-id=0-1&t=8zMwLGJWU5I8TI1O-1)
+> Você pode visualizar esse projeto no ar [aqui,](https://dalgonafox.github.io/websites/landingpage/cafeteria/index.html) e ver o protótipo do Figma [aqui.](https://www.figma.com/design/wYO53FSGRCffKw0SLgArSx/Caf%C3%A9-Sabor-e-Alma?node-id=0-1&t=8zMwLGJWU5I8TI1O-1)
 
 ## Funcionalidades
 - Design responsivo para dispositivos móveis;

@@ -6,7 +6,7 @@ Esse repositório contém todos os exercícios desenvolvidos por mim durante o c
 
 Existem duas pastas principais:
 - SENAI
-- Websites
+- websites
 
 Na pasta SENAI tem meus exercícios e atividades, e em Websites tenho alguns redesigns de projetos antigos e sites da vida real, e tenho as landing pages que já fiz.
 

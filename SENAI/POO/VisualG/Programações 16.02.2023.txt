@@ -1,0 +1,111 @@
+Programações 16/02/2023
+
+
+Código do Produto
+algoritmo "Código do Produto"
+var
+preco: real
+produto: real
+quantidadecomprada: real
+
+inicio
+escrevaL ("---------------------------------")
+escrevaL ("COD  PRODUTO       PREÇO UNITÁRIO")
+escrevaL ("---------------------------------")
+escrevaL ("1001               R$ 5,32       ")
+escrevaL ("1324               R$ 6,45       ")
+escrevaL ("6548               R$ 2,37       ")
+escrevaL ("---------------------------------")
+escreva ("Digite o código do Produto: ")
+leia (produto)
+
+se produto = (1001) entao
+escreva ("Digite a quantidade comprada: ")
+leia (quantidadecomprada)
+preco <- (5.32*quantidadecomprada)
+escreva ("O preço total a pagar é de R$ ",preco)
+senao
+se produto = 1324 entao
+escreva ("Digite a quantidade comprada: ")
+leia (quantidadecomprada)
+preco <- (6.45*quantidadecomprada)
+escreva ("O preço total a pagar é de R$ ",preco)
+senao
+se produto = 6548 entao
+escreva ("Digite a quantidade comprada: ")
+leia (quantidadecomprada)
+preco <- (2.37*quantidadecomprada)
+escreva ("O preço total a pagar é de R$ ",preco)
+senao
+escreva("Desculpe, este produto não está em nosso catálogo.")
+fimse
+fimse
+fimse
+
+fimalgoritmo
+
+
+Viagem
+algoritmo "Combustível"
+var
+distancia, tempo, velocidade, litros, preco: real
+inicio
+escreva ("Digite o tempo gasto em horas: ")
+leia (tempo)
+escreva ("Digite a velocidade média em km/h: ")
+leia (velocidade)
+distancia <- (tempo * velocidade)
+litros <- (distancia /12)
+escreval ("A distância percorrida foi de: ",distancia,"km")
+escreval ("A quantidade de litros de combustível gasta foi de: ",litros,"L")
+preco <- (litros*4.90)
+escreva ("O preço total do combustível foi de: R$",preco)
+fimalgoritmo
+
+
+Eleições
+algoritmo "Eleição Sindical"
+
+var
+A,Ap,B,Bp,C,Cp: real
+branco, brancop, nulo, nulop, valido, total: real
+
+inicio
+escreva ("Votos de A........: ")
+leia(A)
+escreva ("Votos de B........: ")
+leia(B)
+escreva ("Votos de C........: ")
+leia(C)
+escreva ("Votos NULOS.......: ")
+leia(nulo)
+escreva ("Votos em BRANCO...: ")
+leia(branco)
+
+total <- (A+B+C+branco+nulo)
+valido <- (total - branco - nulo)*100/total
+brancop <- branco*100/total
+nulop <- nulo*100/total
+Ap <- A*100/total
+Bp <- B*100/total
+Cp <- C*100/total
+
+escreval ("     ")
+escreval ("TOTAL DE ELEITORES: ",total," voto(s)")
+escreval ("Votos de A........: ",Ap, "%")
+escreval ("Votos de B........: ",Bp, "%")
+escreval ("Votos de C........: ",Cp, "%")
+escreval ("Votos NULOS.......: ",nulop, "%")
+escreval ("Votos em BRANCO...: ",brancop, "%")
+se (A>B)e(A>C) entao
+escreval ("O presidente eleito é o A!")
+senao
+se (B>A)e(B>C) entao
+escreval ("O presidente eleito é o B!")
+senao
+se (C>B)e(C>A) entao
+escreval ("O presidente eleito é o C!")
+fimse
+fimse
+fimse
+fimalgoritmo

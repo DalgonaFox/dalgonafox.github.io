@@ -1,0 +1,62 @@
+algoritmo "Soma dos ângulos internos de um polígono"
+
+var
+lados, s, a: real
+inicio
+escreva ("Digite o número de lados do seu polígono: ")
+leia (lados)
+s <- (lados-2)*180
+a <- s/lados
+se lados = 4 entao
+escreval ("O seu polígono se chama Quadrado.")
+escreval ("A soma dos ângulos internos do seu polígono é igual a: ", s:5:2)
+escreva ("O valor de cada ângulo interno do seu polígono é igual a: ", a:5:2)
+senao
+se lados = 5 entao
+escreval ("O seu polígono se chama Pentágono.")
+escreval ("A soma dos ângulos internos do seu polígono é igual a: ", s:5:2)
+escreva ("O valor de cada ângulo interno do seu polígono é igual a: ", a:5:2)
+senao
+se lados = 6 entao
+escreval ("O seu polígono se chama Hexágono.")
+escreval ("A soma dos ângulos internos do seu polígono é igual a: ", s:5:2)
+escreva ("O valor de cada ângulo interno do seu polígono é igual a: ", a:5:2)
+senao
+se lados = 7 entao
+escreval ("O seu polígono se chama Heptágono.")
+escreval ("A soma dos ângulos internos do seu polígono é igual a: ", s:5:2)
+escreva ("O valor de cada ângulo interno do seu polígono é igual a: ", a:5:2)
+senao
+se lados = 8 entao
+escreval ("O seu polígono se chama Octógono.")
+escreval ("A soma dos ângulos internos do seu polígono é igual a: ", s:5:2)
+escreva ("O valor de cada ângulo interno do seu polígono é igual a: ", a:5:2)
+senao
+se lados = 10 entao
+escreval ("O seu polígono se chama Decágono.")
+escreval ("A soma dos ângulos internos do seu polígono é igual a: ", s:5:2)
+escreva ("O valor de cada ângulo interno do seu polígono é igual a: ", a:5:2)
+senao
+se lados = 12 entao
+escreval ("O seu polígono se chama Dodecágono.")
+escreval ("A soma dos ângulos internos do seu polígono é igual a: ", s:5:2)
+escreva ("O valor de cada ângulo interno do seu polígono é igual a: ", a:5:2)
+senao
+se lados = 20 entao
+escreval ("O seu polígono se chama Icoságono.")
+escreval ("A soma dos ângulos internos do seu polígono é igual a: ", s:5:2)
+escreva ("O valor de cada ângulo interno do seu polígono é igual a: ", a:5:2)
+senao
+escreval ("Desculpe, não sabemos o nome desse polígono.")
+escreval ("Mesmo assim, fizemos a conta para você:")
+escreval ("A soma dos ângulos internos do seu polígono é igual a: ", s:5:2)
+escreva ("O valor de cada ângulo interno do seu polígono é igual a: ", a:5:2)
+fimse
+fimse
+fimse
+fimse
+fimse
+fimse
+fimse
+fimse
+fimalgoritmo

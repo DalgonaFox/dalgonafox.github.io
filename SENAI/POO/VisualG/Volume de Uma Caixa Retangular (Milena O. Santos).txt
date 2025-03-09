@@ -1,0 +1,15 @@
+algoritmo "Volume de uma caixa retangular"
+var
+    V,C,L,A : real
+inicio
+    escreval("Elaborado por Milena Oliveira Santos")
+    escreva("Digite o Comprimento: ")
+    leia(C)
+    escreva("Digite a Largura: ")
+    leia (L)
+    escreva("Digite a Altura: ")
+    leia (A)
+    
+    V <- (C*L*A)
+    escreva("O Volume é igual a:", V)
+fimalgoritmo

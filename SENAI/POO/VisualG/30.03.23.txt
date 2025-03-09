@@ -1,0 +1,46 @@
+algoritmo "0 a 100"
+var
+x: inteiro
+
+inicio
+escreval ("Contarei de 0 a 100.")
+para x de -1 ate 99 faca
+timer (50)
+x <- x-1
+escreval (x)
+fimpara
+fimalgoritmo
+
+
+algoritmo "Tabuada"
+var
+x, y, n: inteiro
+
+inicio
+leia (y)
+escreval (" ")
+escreval ("----------------------------------")
+escreval ("A TABUADA DO",y," é")
+escreval (" ")
+escreval (y, " x", n, " =", x)
+para x de 1 ate 10 faca
+timer (50)
+x <- x*y
+n <- n+1
+escreval (y, " x", n, " =", x)
+fimpara
+fimalgoritmo
+
+
+algoritmo "Números Pares"
+var
+x: inteiro
+inicio
+escreval ("Números pares de 0 a 40.")
+x <- -2
+enquanto x<= 38 faca
+timer (50)
+x <- x+2
+escreval (x)
+fimenquanto
+fimalgoritmo

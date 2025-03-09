@@ -429,11 +429,10 @@ i {
 
 .prato-imagem img {
     width: 100%;
-    height: 100%;
+    height: 20%;
     text-align: center;
     transition: transform .2s;
     object-fit: cover;
-    height: 100%;
     flex-grow: 1;
 }
 

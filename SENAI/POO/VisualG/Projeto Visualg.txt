@@ -1,0 +1,98 @@
+algoritmo "vetor"
+var
+   lanche: vetor [1..5] de caractere
+   bebida: vetor [1..5] de caractere
+   l,b,cont, menu: inteiro
+inicio
+   escreval
+   escreval("--------------Big Burguer--------------")
+   escreval
+        lanche[1] <- "Big All"
+        lanche[2] <- "Big Cheese"
+        lanche[3] <- "Big Cheddar: Elton Edition"
+        lanche[4] <- "Big Mother"
+        lanche[5] <- "Big Salad"
+        bebida[1] <- "Guaraná"
+        bebida[2] <- "Coca-cola"
+        bebida[3] <- "Pepsi"
+        bebida[4] <- "Fanta"
+        bebida[5] <- "Sprite"
+        menu <- 0
+
+enquanto menu <> 5 faca
+   escreval
+   escreval("Escolha: 1 - Mostrar Lanches e Bedidas")
+   escreval("         2 - Venda dos Lanches")
+   escreval("         3 - Venda das Bebidas")
+   escreval("         4 - Limpar")
+   escreval("         5 - Sair")
+   escreval
+   leia(menu)
+   escreval
+   limpatela
+   
+se menu = 1 entao
+escreval ("----------Lanches----------")
+escreval
+cont <- 1
+para l de 1 ate 5 faca
+escreval (l, " - ", lanche[l])
+cont <- cont+1
+fimpara
+escreval
+escreval ("----------Bebidas----------")
+escreval
+para b de 1 ate 5 faca
+escreval (b, " - ", bebida[b])
+cont <- cont+1
+fimpara
+senao
+
+se menu = 2 entao
+escreval ("----------Lanches----------")
+escreval
+para l de 1 ate 5 faca
+escreval (l, " - ", lanche[l])
+cont <- cont+1
+fimpara
+escreval
+escreva ("Digite o número correspondente ao lanche: ")
+leia (l)
+se lanche[l] = "Produto Esgotado" entao
+escreval ("Desculpe, lanche esgotado. Verifique outro.")
+senao
+escreval ("Parabéns, o lanche ", lanche[l], " foi vendido!")
+lanche[l] <- "Produto Esgotado"
+fimse
+senao
+
+se menu = 3 entao
+cont <- 1
+escreval ("----------Bebidas----------")
+escreval
+para b de 1 ate 5 faca
+escreval (b, " - ", bebida[b])
+cont <- cont+1
+fimpara
+escreval
+escreva ("Digite o número correspondente à bebida: ")
+leia (b)
+escreval
+se bebida[b] = "Produto Esgotado" entao
+escreval ("Desculpe, bebida esgotada. Verifique outra.")
+senao
+escreval ("Parabéns, a bebida ", bebida[b], " foi vendida!")
+bebida[b] <- "Produto Esgotado"
+fimse
+senao
+
+se menu = 4 entao
+limpatela
+senao
+escreval ("Muito obrigado por utilizar nosso sistema.")
+fimse
+fimse
+fimse
+fimse
+fimenquanto
+fimalgoritmo

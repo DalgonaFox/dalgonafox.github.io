@@ -1,0 +1,101 @@
+algoritmo "SOMA 5 NUMEROS"
+
+var
+num: vetor [1..5] de inteiro
+cont, soma: inteiro
+
+inicio
+para cont de 1 ate 5 faca
+escreval ("Enter com um número:")
+leia (num[cont])
+soma <- (soma + num[cont])
+fimpara
+
+escreval ("A soma ds números é:"), soma)
+escreval ()
+
+escreval ("Os números digitados foram:")
+para cont de 1 ate 5 faca escreval (num[cont])
+fimpara
+fimalgoritmo
+
+
+
+algoritmo "MÉDIA 4 NOTAS"
+var
+notas: vetor [1..4] de real
+soma, media: real
+i: inteiro
+
+inicio
+soma <- 0
+escreval ("Digite as quatro notas do aluno: ")
+
+para i de 1 ate 4 faca
+leia (notas [i])
+soma <- soma + notas[i]
+fimpara
+
+limpatela
+
+escreval ()
+media <- soma/4
+escreval ("A média é: ", media)
+escreval ()
+
+para i de 1 ate 4 faca
+escreval ("Nota", i, ": ", notas[i])
+fimpara
+fimalgoritmo
+
+
+
+algoritmo "Multiplique por 5"
+var
+numero: vetor [1..5] de inteiro
+resultado: inteiro
+i: inteiro
+
+inicio
+para i de 1 ate 5 faca
+escreval ("Digite um número: ")
+leia (numero [i])
+fimpara
+
+escreval ()
+escreval ("Resultado:")
+
+para i de 1 ate 5 faca
+resultado <- 5*numero[i]
+escreval (numero[i], " x 5 =", resultado)
+fimpara
+
+fimalgoritmo
+
+
+
+algoritmo "nome inverso"
+
+var
+nomes : vetor [0..4] de caractere
+cont : inteiro
+
+inicio
+para cont de 0 ate 4 faca
+escreval ("Entre com um nome:")
+leia (nomes[cont])
+fimpara
+
+escreval ()
+escreval ("Os nomes digitados foram:")
+para cont de 0 ate 4 faca
+escreval (nomes [cont])
+fimpara
+
+escreval()
+escreval ("Os nomes digitados em ordem inversa foram:")
+para cont de 4 ate 0 passo -1 faca
+escreval (nomes [cont])
+fimpara
+
+fimalgoritmo

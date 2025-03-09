@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap');
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    text-align: center;
+    background-image: url(../termo2/img/straw.jpg);
+    color: white;
+}
+
+hr {
+    width: 600px;
+}
+
+#title {
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 60px;
+    height: 60px;
+    margin: 2.5px;
+    border-radius: 15px;
+    background-color: rgb(255, 0, 25);
+    align-items: center;
+
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.correct {
+    background-color: #3aa394;
+    color: white;
+}
+
+.present {
+    background-color: #dacb00;
+    color: white;
+}
+
+.absent {
+    background-color: #312a2c;
+    color: white;
+}
+
+
+@media (max-width: 600px) {
+    body {
+        font-family: 'Fredoka', sans-serif;
+        text-align: center;
+        background-color: #6e5c62;
+        color: white;
+        position: fixed;
+        width: 100vw;
+        height: 100vw;
+        max-width: 100%;
+    }
+}

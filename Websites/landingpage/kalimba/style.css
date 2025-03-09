@@ -8,16 +8,19 @@
 
 header {
     width: 100%;
+    padding: 50px;
+    height: 800px;
 }
 
 .header-content {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* usa todo o espaço que sobrou entre os elementos*/
+    justify-content: space-between; 
 }
 
 .bg-home {
     position: relative;
+    background-image: linear-gradient(transparent, transparent,  #8c3701);
 }
 
 .bg-home::before {
@@ -42,10 +45,12 @@ i {
 .header-icons {
     display: flex;
     gap: 14px;
+    transition: background-color 3s;
 }
 
 .header-icons a:hover i {
     color: #d34040;
+    transform: scale(1.4);
 }
 
 .header-button {
@@ -55,7 +60,7 @@ i {
     border-radius: 8px;
     background-color: transparent;
     text-decoration: none;
-    transition: background-color 0.5s;
+    transition: background-color 0.2s;
 }
 
 .header-button:hover {
@@ -94,13 +99,20 @@ i {
 
 .button-contact {
     color: #fff;
+    border: 1px solid #fff;
     text-decoration: none;
-    background-color: #d34040;
+    background-color: transparent;
     padding: 14px 28px;
     font-size: 18px;
     font-weight: 600;
     margin: 14px 0;
     border-radius: 8px;
+    transition: 0.2s;
+}
+
+.button-contact:hover {
+    background-color: #d34040;
+    border: none;
 }
 
 .about {
@@ -115,14 +127,29 @@ i {
     justify-content: center;
     gap: 14px;
     padding: 34px 14px 64px 14px;
+    width: 100%;
 }
 
 .about-content img {
     max-width: 570px;
+    align-self: center;
+    max-height: 500px;
 }
 
 .about-content div {
     flex: 1;
+    padding: 50px;
+}
+
+.imagem-sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.about-description {
+    flex: 2;
 }
 
 .about-description h2 {
@@ -133,8 +160,9 @@ i {
 .about-description p {
     margin-bottom: 14px;
     line-height: 150%;
+    
 }
-.services {
+.servicos {
     background-color: #fff;
     color: #8c3701;
     display: flex;
@@ -143,26 +171,29 @@ i {
     justify-content: center;
     padding: 54px 14px;
 }
-.services-content h2 {
+.servicos-content h2 {
     text-transform: uppercase;
     text-align: center;
     font-size: 38px;
     margin-bottom: 14px;
 }
-.services-content p {
+.servicos-content p {
     line-height: 150%;
-    margin-bottom: 14px;
+    margin-bottom: 60px;
     text-align: center;
     max-width: 780px;
 }
-.haircuts {
+.feedbacks {
     display: flex;
     gap: 16px;
     align-items: center;
     justify-content: center;
     padding: 0 44px 34px 44px;
+    width: 95%;
+    align-items: stretch;
 }
-.haircut {
+
+.comentario {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -170,17 +201,34 @@ i {
     border-radius: 8px;
     box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.45);
     overflow: hidden;
-}
-.haircut img {
+    height: 100%;
     width: 100%;
-    max-width: 400px;
 }
-.haircut img:hover {
+
+.comentario-imagem {
+    display: flex;
+    height: 20%;
+    object-fit: cover;
+    transition: transform 0.4s;
+}
+
+.comentario img {
+    width: 100%;
+    text-align: center;
+    transition: transform .2s;
+    object-fit: cover;
+    height: 100%;
+    flex-grow: 1;
+}
+
+.comentario img:hover {
     transform: scale(1.2);
     z-index: 1;
 }
-.haircut-info {
+
+.comentario-info {
     width: 100%;
+    height: 80%;
     display: flex;
     justify-content: center;
     padding: 14px;
@@ -189,7 +237,7 @@ i {
     flex-direction: column;
     text-align: center;
 }
-.haircut-info button {
+.comentario-info button {
     color: #fff;
     background-color: #d34040;
     padding: 4px 8px;
@@ -210,8 +258,13 @@ i {
  
   .footer-icons {
     display: flex;
-    gap: 8px;
+    gap: 15px;
     color: #FFF;
+    transition: 0.4s;
+  }
+
+  .footer-icons a:hover i {
+    transform: scale(1.3);
   }
  
   .btn-whatsapp {
@@ -308,7 +361,6 @@ i {
     gap: 16px;
     align-items: center;
     justify-content: center;
-    padding: 0 44px 34px 44px;
 }
 
 .kalimba {
@@ -325,6 +377,7 @@ i {
     width: 100%;
     max-width: 400px;
     text-align: center;
+    transition: 0.2s;
 }
 
 .kalimba img:hover {
@@ -348,4 +401,47 @@ i {
     border-radius: 4px;
     border: 0;
     cursor: default;
+}
+
+@media (max-width: 1120px) {
+    .about-content {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 850px) {
+    .header-logo img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 300px;
+    }
+
+    .servicos p {
+        font-size: 14px;
+    }
+    .about-content p {
+        font-size: 14px;
+        text-align: center;
+    }
+    .about-content h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .kalimbas {
+        flex-direction: column;
+    }
+
+    .feedbacks {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 720px) {
+    .header-content {
+        flex-direction: column;
+        gap: 50px;
+        margin-bottom: 50px;
+    }
 }

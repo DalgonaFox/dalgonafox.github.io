@@ -1,0 +1,23 @@
+ValeGas
+1. O design é harmônico, mas simples
+2. Não tem barra de pesquisa no site.
+3. Tem vários botões de links no site, que redirecionam o usuário a outras páginas web.
+4. Contém um pequeno enunciado sobre o vale gás
+5. Foi feito pelo governo
+6. Não possui back-end
+7. Contém botões de link de contato por redes sociais
+8. A conexão é segura
+9. Contém 11 cookies em uso
+10. Foi feito com o objetivo de informar a população sobre o vale gás, ajudando pessoas sem condição financeira.
+
+ODia
+1. tem 80 cookies em uso oloquinho
+2. A conexão é segura
+3. O site queria me mandar notificaciones
+4. Site dinâmico (front e back end)
+5. Tem diversas opções de tópicos e barra de navegação
+6. Atualização em tempo real
+7. Menu de notícias é bem bagunçado
+8. Contém anúncios
+9. É possível criar uma conta no site
+10. Links para redes sociais

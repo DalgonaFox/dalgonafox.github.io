@@ -1,0 +1,99 @@
+algoritmo "Números em Ordem Crescente"
+
+var
+um, dois, tres: real
+ordemum, ordemdois, ordemtres: real
+inicio
+escreva ("Digite um número: ")
+leia (um)
+escreva ("Digite um número: ")
+leia (dois)
+escreva ("Digite um número: ")
+leia(tres)
+
+se (um>dois) e (um>tres) entao
+ordemtres<- um
+senao
+se (um>dois) e (um<tres) ou (um<dois) e (um>tres) entao
+ordemdois<- um
+senao
+se (um<dois) e (um<tres) entao
+ordemum<- um
+fimse
+fimse
+fimse
+
+se (dois>um) e (dois>tres) entao
+ordemtres<- dois
+senao
+se (dois>um) e (dois<tres) ou (dois<um) e (dois>tres) entao
+ordemdois<- dois
+senao
+se (dois<um) e (dois<tres) entao
+ordemum<- dois
+fimse
+fimse
+fimse
+
+se (tres>dois) e (tres>um) entao
+ordemtres<- tres
+senao
+se (tres>dois) e (tres<um) ou (tres<dois) e (tres>um) entao
+ordemdois<- tres
+senao
+se (tres<dois) e (tres<um) entao
+ordemum <- tres
+fimse
+fimse
+fimse
+escreva (" A ordem crescente desses números é: ", ordemum, ordemdois, ordemtres)
+fimalgoritmo
+
+
+algoritmo "Conta Bancária"
+
+var
+numero,deposito,saque,saldo,saldof,saldod,operacao:real
+inicio
+escreval ("-----------------------------")
+escreval ("<<<  BANCO SENAI SUZANO  >>>")
+escreval ("-----------------------------")
+saldo <-1000
+escreva ("Digite o nº da conta: ")
+leia (numero)
+
+se (numero<>10) entao
+escreva ("Número incorreto.")
+fimse
+
+se numero = 10 entao
+escreval ("1 - Saque")
+escreval ("2 - Depósito")
+escreva ("Escolha uma operação: ")
+leia (operacao)
+
+se (operacao<>1)e(operacao<>2) entao
+escreval ("Erro.")
+fimse
+
+se operacao = 2 entao
+escreva ("Digite o valor do depósito: ")
+leia (deposito)
+saldod<- saldo+deposito
+escreval ("Depósito realizado com sucesso!")
+escreva ("SALDO --> R$  ",saldod)
+fimse
+fimse
+
+se operacao = 1 entao
+escreva ("Digite o valor do saque: ")
+leia (saque)
+se saque > saldo entao
+escreva("Erro. Você quer sacar um valor maior que o seu saldo.")
+senao
+saldof <- saldo-saque
+escreval ("Saque realizado com sucesso!")
+escreva ("SALDO --> R$  ",saldof)
+fimse
+fimse
+fimalgoritmo

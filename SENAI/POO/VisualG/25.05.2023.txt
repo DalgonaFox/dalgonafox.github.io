@@ -1,0 +1,232 @@
+algoritmo "Soma de Matrizes 2x2"
+
+var
+//criando três matrizes 4x4
+A: vetor[0..1,0..1] de inteiro
+B: vetor[0..1,0..1] de inteiro
+S: vetor[0..1,0..1] de inteiro
+linha, coluna: inteiro
+inicio
+escreval("Algoritmo para some de matrizes 2x2")
+//preenchimento as duas matrizes
+escreval("")
+escreval("Preenchendo a matriz A:")
+            para linha de 0 ate 1 faca
+            para coluna de 0 ate 1 faca
+              escreval("Digite um número para inserir na matriz A")
+              leia (A[linha,coluna])
+           fimpara
+           fimpara
+escreval("")
+escreval("Preenchendo a matriz B")
+para linha de 0 ate 1 faca
+para coluna de 0 ate 1 faca
+escreval("Digite um número para inserir na matriz B")
+leia(B[linha,coluna])
+fimpara
+fimpara
+//Efetuando a soma das duas matrizes e armazenando o resto
+para linha de 0 ate 1 faca
+para coluna de 0 ate 1 faca
+S[linha,coluna] <- A[linha, coluna] + B[linha,coluna]
+fimpara
+fimpara
+escreval("")
+//Exibindo os resultados na tela:
+escreval("Conteúdo da matriz A:")
+para linha de 0 ate 1 faca
+para coluna de 0 ate 1 faca
+se coluna < 1 entao
+escreva(A[linha,coluna])
+senao
+escreval(A[linha,coluna])
+fimse
+fimpara
+fimpara
+escreval("Conteúdo da matriz B:")
+para linha de 0 ate 1 faca
+para coluna de 0 ate 1 faca
+se coluna < 1 entao
+escreva(B[linha,coluna])
+senao
+escreval(B[linha,coluna])
+fimse
+fimpara
+fimpara
+escreval("A soma das matrizes A e B é:")
+para linha de 0 ate 1 faca
+para coluna de 0 ate 1 faca
+se coluna < 1 entao
+escreva (S[linha,coluna])
+senao
+escreval (S[linha,coluna])
+fimse
+fimpara
+fimpara
+fimalgoritmo
+
+
+algoritmo "Multiplicação de Matrizes 3x3"
+
+var
+//criando três matrizes 3x3
+A: vetor[0..2,0..2] de inteiro
+B: vetor[0..2,0..2] de inteiro
+S: vetor[0..2,0..2] de inteiro
+linha, coluna: inteiro
+inicio
+escreval("Algoritmo para multiplicação de matrizes 3x3")
+//preenchimento as duas matrizes
+escreval("")
+escreval("Preenchendo a matriz A:")
+            para linha de 0 ate 2 faca
+            para coluna de 0 ate 2 faca
+              escreval("Digite um número para inserir na matriz: ")
+              leia (A[linha,coluna])
+           fimpara
+           fimpara
+escreval("")
+escreval("Preenchendo a matriz B:")
+para linha de 0 ate 2 faca
+para coluna de 0 ate 2 faca
+escreval("Digite um número para inserir na matriz: ")
+leia(B[linha,coluna])
+fimpara
+fimpara
+//Efetuando a soma das duas matrizes e armazenando o resto
+para linha de 0 ate 2 faca
+para coluna de 0 ate 2 faca
+S[linha,coluna] <- A[linha, coluna] * B[linha,coluna]
+fimpara
+fimpara
+escreval("")
+//Exibindo os resultados na tela:
+escreval("Conteúdo da matriz A:")
+para linha de 0 ate 2 faca
+para coluna de 0 ate 2 faca
+se coluna < 2 entao
+escreva(A[linha,coluna])
+senao
+escreval(A[linha,coluna])
+fimse
+fimpara
+fimpara
+escreval("Conteúdo da matriz B:")
+para linha de 0 ate 2 faca
+para coluna de 0 ate 2 faca
+se coluna < 2 entao
+escreva(B[linha,coluna])
+senao
+escreval(B[linha,coluna])
+fimse
+fimpara
+fimpara
+escreval("O Produto das matrizes A e B é:")
+para linha de 0 ate 2 faca
+para coluna de 0 ate 2 faca
+se coluna < 2 entao
+escreva (S[linha,coluna])
+senao
+escreval (S[linha,coluna])
+fimse
+fimpara
+fimpara
+fimalgoritmo
+
+
+algoritmo "Multiplicação de Matrizes 4x4"
+
+var
+//criando três matrizes 3x3
+A: vetor[0..3,0..3] de inteiro
+B: vetor[0..3,0..3] de inteiro
+S: vetor[0..3,0..3] de inteiro
+linha, coluna: inteiro
+inicio
+escreval("Algoritmo para multiplicação de matrizes 4x4")
+//preenchimento as duas matrizes
+escreval("")
+escreval("Preenchendo a matriz A:")
+            para linha de 0 ate 3 faca
+            para coluna de 0 ate 3 faca
+              escreval("Digite um número para inserir na matriz: ")
+              leia (A[linha,coluna])
+           fimpara
+           fimpara
+escreval("")
+escreval("Preenchendo a matriz B:")
+para linha de 0 ate 3 faca
+para coluna de 0 ate 3 faca
+escreval("Digite um número para inserir na matriz: ")
+leia(B[linha,coluna])
+fimpara
+fimpara
+//Efetuando a soma das duas matrizes e armazenando o resto
+para linha de 0 ate 3 faca
+para coluna de 0 ate 3 faca
+S[linha,coluna] <- A[linha, coluna] + B[linha,coluna] + 20
+fimpara
+fimpara
+escreval("")
+//Exibindo os resultados na tela:
+escreval("Conteúdo da matriz A:")
+para linha de 0 ate 3 faca
+para coluna de 0 ate 3 faca
+se coluna < 3 entao
+escreva(A[linha,coluna])
+senao
+escreval(A[linha,coluna])
+fimse
+fimpara
+fimpara
+escreval("Conteúdo da matriz B:")
+para linha de 0 ate 3 faca
+para coluna de 0 ate 3 faca
+se coluna < 3 entao
+escreva(B[linha,coluna])
+senao
+escreval(B[linha,coluna])
+fimse
+fimpara
+fimpara
+escreval("A soma das matrizes A e B + 20 é:")
+para linha de 0 ate 3 faca
+para coluna de 0 ate 3 faca
+se coluna < 3 entao
+escreva (S[linha,coluna])
+senao
+escreval (S[linha,coluna])
+fimse
+fimpara
+fimpara
+fimalgoritmo
+
+
+algoritmo "Armazenamento de Nomes"
+
+var
+A: vetor[0..3,0..3] de caractere
+linha, coluna: inteiro
+inicio
+escreval("Algoritmo para armazenamento de nomes")
+//preenchimento da matriz
+escreval("")
+escreval("Preenchendo a tabela de nomes:")
+            para linha de 0 ate 2 faca
+            para coluna de 0 ate 1 faca
+              escreval("Digite um nome: ")
+              leia (A[linha,coluna])
+           fimpara
+           fimpara
+//Exibindo os resultados na tela:
+escreval("Conteúdo da tabela:")
+para linha de 0 ate 2 faca
+para coluna de 0 ate 1 faca
+se coluna < 1 entao
+escreva(A[linha,coluna], "    ")
+senao
+escreval(A[linha,coluna], "    ")
+fimse
+fimpara
+fimpara
+fimalgoritmo

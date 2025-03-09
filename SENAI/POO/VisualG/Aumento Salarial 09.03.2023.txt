@@ -1,0 +1,173 @@
+Programações 09.03.23
+
+
+algoritmo "Aumento Salarial"
+
+var
+salario, codigo, aumento, diferenca: real
+cargo: caractere
+inicio
+escreva ("Digite o código correspondente ao seu cargo na empresa: ")
+leia (codigo)
+escreva ("Digite o seu salário: ")
+leia (salario)
+escolha codigo
+caso 101
+cargo <- "gerente"
+aumento <- salario+salario*0.1
+diferenca <- aumento - salario
+limpatela
+escreval ("Salário atual ---> R$    ", salario:5:2)
+escreval ("Aumento salarial -> R$    ", diferenca:5:2)
+escreval ("Salário novo ----> R$    ", aumento:5:2)
+caso 102
+cargo <- "engenheiro"
+aumento <-  salario+salario*0.2
+diferenca <- aumento - salario
+limpatela
+escreval ("Salário atual ---> R$    ", salario:5:2)
+escreval ("Aumento salarial -> R$    ", diferenca:5:2)
+escreval ("Salário novo ----> R$    ", aumento:5:2)
+caso 103
+cargo <- "técnico"
+aumento <- salario+salario*0.3
+diferenca <- aumento - salario
+limpatela
+escreval ("Salário atual ---> R$    ", salario:5:2)
+escreval ("Aumento salarial -> R$    ", diferenca:5:2)
+escreval ("Salário novo ----> R$    ", aumento:5:2)
+outrocaso
+aumento <- salario+salario*0.4
+diferenca <- aumento - salario
+limpatela
+escreval ("Salário atual ---> R$    ", salario:5:2)
+escreval ("Aumento salarial -> R$    ", diferenca:5:2)
+escreval ("Salário novo ----> R$    ", aumento:5:2)
+fimescolha
+fimalgoritmo
+
+
+algoritmo "Lanchonete"
+var
+preco: real
+produto: real
+quantidadecomprada: real
+
+inicio
+escrevaL ("---------------------------------------")
+escrevaL ("ESPECIFICAÇÃO        CÓDIGO     PREÇO")
+escrevaL ("---------------------------------------")
+escrevaL ("Cachorro-quente      100        R$ 5,32 ")
+escrevaL ("Hambúrguer           101        R$ 6,45 ")
+escrevaL ("Cheeseburguer        102        R$ 2,37 ")
+escrevaL ("Refrigerante         103        R$ 2,37 ")
+escrevaL ("---------------------------------------")
+escreva ("Digite o código do Produto: ")
+leia (produto)
+
+se produto = 101 entao
+escreva ("Digite a quantidade comprada: ")
+leia (quantidadecomprada)
+preco <- (2.50*quantidadecomprada)
+escreva ("O preço total a pagar é de R$ ",preco)
+senao
+se produto = 102 entao
+escreva ("Digite a quantidade comprada: ")
+leia (quantidadecomprada)
+preco <- (3.50*quantidadecomprada)
+escreva ("O preço total a pagar é de R$",preco:5:2)
+senao
+se produto = 103 entao
+escreva ("Digite a quantidade comprada: ")
+leia (quantidadecomprada)
+preco <- (5.50*quantidadecomprada)
+escreva ("O preço total a pagar é de R$",preco:5:2)
+senao
+se produto = 104 entao
+escreva ("Digite a quantidade comprada: ")
+leia (quantidadecomprada)
+preco <- (1.50*quantidadecomprada)
+escreva ("O preço total a pagar é de R$",preco:5:2)
+senao
+escreva("Desculpe, este produto não está em nosso catálogo.")
+fimse
+fimse
+fimse
+fimse
+fimalgoritmo
+
+
+algoritmo "Lanchonete Atual"
+var
+precol, precob: real
+lanche, bebida: real
+quantidadelanche, quantidadebebida: real
+
+inicio
+escrevaL ("---------------------------------------------------------------")
+escrevaL ("LANCHE                   PREÇO       BEBIDA             PREÇO")
+escrevaL ("---------------------------------------------------------------")
+escrevaL ("[100]Cachorro-quente     R$ 5,32     [200]Coca Cola     R$ 5.99")
+escrevaL ("[101]Hambúrguer          R$ 6,45     [201]Fanta         R$ 4.00")
+escrevaL ("[102]Cheeseburguer       R$ 2,37     [202]Sprite        R$ 2.10")
+escrevaL ("[103]Refrigerante        R$ 2,37     [203]Tubaína       R$ 2.50")
+escrevaL ("---------------------------------------------------------------")
+escreva ("Digite o código do Lanche: ")
+leia (lanche)
+
+se lanche = 100 entao
+escreva ("Digite a quantidade comprada em lanches: ")
+leia (quantidadelanche)
+precol <- (5.32*quantidadelanche)
+senao
+se lanche = 101 entao
+escreval ("Digite a quantidade comprada em lanches: ")
+leia (quantidadelanche)
+precol <- (6.45*quantidadelanche)
+senao
+se lanche = 102 entao
+escreval ("Digite a quantidade comprada em lanches: ")
+leia (quantidadelanche)
+precol <- (2.37*quantidadelanche)
+senao
+se lanche = 103 entao
+escreva ("Digite a quantidade comprada em lanches: ")
+leia (quantidadelanche)
+precol <- (2.37*quantidadelanche)
+senao
+escreva("Desculpe, este produto não está em nosso catálogo.")
+fimse
+fimse
+fimse
+fimse
+
+escreva ("Digite o código da Bebida: ")
+leia (bebida)
+se bebida = 200 entao
+escreva ("Digite a quantidade comprada em bebidas: ")
+leia (quantidadebebida)
+precob <- (5.99*quantidadebebida)
+senao
+se bebida = 201 entao
+escreval ("Digite a quantidade comprada em bebidas: ")
+leia (quantidadebebida)
+precob <- (4.00*quantidadebebida)
+senao
+se bebida = 202 entao
+escreval ("Digite a quantidade comprada em bebidas: ")
+leia (quantidadebebida)
+precob <- (2.10*quantidadebebida)
+senao
+se bebida = 203 entao
+escreval ("Digite a quantidade comprada em bebidas: ")
+leia (quantidadebebida)
+precob <- (2.50*quantidadebebida)
+senao
+escreval("Desculpe, este produto não está em nosso catálogo.")
+fimse
+fimse
+fimse
+fimse
+
+escreval ("O preço total a pagar é de R$",(precol+precob):5:2)
+fimalgoritmo
