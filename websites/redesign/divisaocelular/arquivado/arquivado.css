@@ -1,0 +1,50 @@
+.navegacao {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+}
+
+.botaonav {
+    width: 150px;
+    height: 50px;
+    background-color: #3CC26A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'CarterOne-regular';
+    border: none;
+    cursor: pointer;
+    transition: transform .5s ease;
+    font-size: 30px;
+    color: white;
+}
+
+.botaonav2 {
+    width: 150px;
+    height: 50px;
+    background-color: #F4BAD2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'CarterOne-regular';
+    border: none;
+    cursor: pointer;
+    transition: transform .5s ease;
+    font-size: 30px;
+    color: white;
+}
+
+.botaonav:hover {
+    background-color: #248144;
+    transform: scale(1.07);
+}
+
+.botaonav2:hover {
+    background-color: #DC1467;
+    transform: scale(1.07);
+}
+
+.semlink {
+    text-decoration: none;
+    color: white;
+}
