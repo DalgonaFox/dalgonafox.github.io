@@ -37,7 +37,7 @@ const quizData = [
         b: "Metaphase I",
         c: "Prophase II",
         d: "Anaphase I",
-        correct: "b",
+        correct: "a",
         image: "/websites/redesign/divisaocelular/src/img/cromossomo.png",
         explain: "During Metaphase I, the homologous pairs line up on the metaphase plate. They are thus close enough for crossing over to occur."
     },
@@ -89,7 +89,7 @@ const quizData = [
         a: "G1",
         b: "S",
         c: "G2",
-        d: "Nenhum dos anteriores",
+        d: "None of the above",
         correct: "c",
         image: "/websites/redesign/divisaocelular/src/img/espiral.gif",
         explain: "In the third stage of interphase, G2, the DNA spiralizes/condenses, generating the shape of a chromosome, thus beginning the division."
