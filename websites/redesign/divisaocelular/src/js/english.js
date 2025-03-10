@@ -7,7 +7,7 @@ const quizData = [
         c: "Anaphase",
         d: "Telophase",
         correct: "b",
-        image: "https://dalgonafox.github.io/websites/redesign/divisaocelular/src/img/metafase.png",
+        image: "/websites/redesign/divisaocelular/src/img/metafase.png",
         explain: "During metaphase, the chromosomes line up in the center of the cell, forming the metaphase plate. This ensures that each daughter cell will receive an identical copy of the chromosomes."
     },
     {
@@ -17,7 +17,7 @@ const quizData = [
         c: "Metaphase",
         d: "Anaphase",
         correct: "d",
-        image: "https://dalgonafox.github.io/websites/redesign/divisaocelular/src/img/anafase.png",
+        image: "/websites/redesign/divisaocelular/src/img/anafase.png",
         explain: "In anaphase, the sister chromatids are separated and pulled to opposite poles of the cell. This is essential for each daughter cell to receive the correct amount of genetic material."
     },
     {
@@ -27,7 +27,7 @@ const quizData = [
         c: "Mitotic spindle",
         d: "Lysosome",
         correct: "c",
-        image: "https://dalgonafox.github.io/websites/redesign/divisaocelular/src/img/metafase.png",
+        image: "/websites/redesign/divisaocelular/src/img/metafase.png",
         explain: "The mitotic spindle is made up of microtubules that attach to the centromeres of the chromosomes and pull them towards opposite poles of the cell during anaphase."
     },
 
@@ -38,7 +38,7 @@ const quizData = [
         c: "Prophase II",
         d: "Anaphase I",
         correct: "b",
-        image: "https://dalgonafox.github.io/websites/redesign/divisaocelular/src/img/cromossomo.png",
+        image: "/websites/redesign/divisaocelular/src/img/cromossomo.png",
         explain: "During Metaphase I, the homologous pairs line up on the metaphase plate. They are thus close enough for crossing over to occur."
     },
 
@@ -49,7 +49,7 @@ const quizData = [
         c: "Sister chromatids",
         d: "Chromosomes",
         correct: "d",
-        image: "https://dalgonafox.github.io/websites/redesign/divisaocelular/src/img/anafase1.png",
+        image: "/websites/redesign/divisaocelular/src/img/anafase1.png",
         explain: "During Anaphase I, homologous chromosomes separate. Unlike Anaphase II, in which the sister chromatids separate."
     },
 
@@ -60,7 +60,7 @@ const quizData = [
         c: "4",
         d: "6",
         correct: "c",
-        image: "https://dalgonafox.github.io/websites/redesign/divisaocelular/src/img/telofase2.png",
+        image: "/websites/redesign/divisaocelular/src/img/telofase2.png",
         explain: "Mitosis produces two daughter cells identical to the mother cell. Meiosis, on the other hand, produces 4 daughter cells with different genetic material to the mother cell."
     },
     {
@@ -70,7 +70,7 @@ const quizData = [
         c: "Same version of genes",
         d: "If they split",
         correct: "b",
-        image: "https://dalgonafox.github.io/websites/redesign/divisaocelular/src/img/cromossomo.png",
+        image: "/websites/redesign/divisaocelular/src/img/cromossomo.png",
         explain: "The two chromosomes of a homologous pair are very similar to each other and have the same size and shape. However, they don't necessarily have the same versions of genes."
     },
     
@@ -81,7 +81,7 @@ const quizData = [
         c: "Telophase",
         d: "Interphase",
         correct: "d",
-        image: "https://dalgonafox.github.io/websites/redesign/divisaocelular/src/img/cellcycle.png",
+        image: "/websites/redesign/divisaocelular/src/img/cellcycle.png",
         explain: "Interphase is the preparation of cells for division, separated into three stages, G1, S and G2"
     },
     {
@@ -91,7 +91,7 @@ const quizData = [
         c: "G2",
         d: "Nenhum dos anteriores",
         correct: "c",
-        image: "https://dalgonafox.github.io/websites/redesign/divisaocelular/src/img/espiral.gif",
+        image: "/websites/redesign/divisaocelular/src/img/espiral.gif",
         explain: "In the third stage of interphase, G2, the DNA spiralizes/condenses, generating the shape of a chromosome, thus beginning the division."
     },
     {
@@ -101,7 +101,7 @@ const quizData = [
         c: "DNA is duplicated",
         d: "Does not form",
         correct: "c",
-        image: "https://dalgonafox.github.io/websites/redesign/divisaocelular/src/img/dna.png",
+        image: "/websites/redesign/divisaocelular/src/img/dna.png",
         explain: "In the S stage of interphase, the DNA undergoes duplication, generating a new strand and the famous X shape of the chromosome."
     },
 ];
