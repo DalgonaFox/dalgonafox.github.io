@@ -7,7 +7,7 @@ const quizData = [
         c: "Anáfase",
         d: "Telófase",
         correct: "b",
-        image: "./../../src/img/metafase.png",
+        image: "./../img/metafase.png",
         explain: "Durante a metáfase, os cromossomos se alinham no centro da célula, formando a placa metafásica. Isso assegura que cada célula filha receberá uma cópia idêntica dos cromossomos."
     },
     {
@@ -17,7 +17,7 @@ const quizData = [
         c: "Metáfase",
         d: "Anáfase",
         correct: "d",
-        image: "./../../src/img/anafase.png",
+        image: "./../img/anafase.png",
         explain: "Na anáfase, as cromátides irmãs são separadas e puxadas para polos opostos da célula. Isso é essencial para que cada célula filha receba a quantidade correta de material genético."
     },
     {
@@ -27,7 +27,7 @@ const quizData = [
         c: "Fuso mitótico",
         d: "Lisossomo",
         correct: "c",
-        image: "./../../src/img/metafase.png",
+        image: "./../img/metafase.png",
         explain: "O fuso mitótico é composto por microtúbulos que se ligam aos centrômeros dos cromossomos e os puxam para os polos opostos da célula durante a anáfase."
     },
 
@@ -59,7 +59,7 @@ const quizData = [
         c: "Prófase II",
         d: "Anáfase I",
         correct: "b",
-        image: "./../../src/img/cromossomo.png",
+        image: "./../img/cromossomo.png",
         explain: "Durante a Metáfase I, os pares homólogos se alinham na placa metafásica. Assim, eles ficam próximos o bastante para ocorrer o crossing over."
     },
 
@@ -70,7 +70,7 @@ const quizData = [
         c: "Cromátides-irmãs",
         d: "Cromossomos",
         correct: "d",
-        image: "./../../src/img/anafase1.png",
+        image: "./../img/anafase1.png",
         explain: "Durante a Anáfase I, occorre a separação dos cromossomos homólogos. Diferentemente da Anáfase II, na qual occorre a separação das cromátides-irmãs."
     },
 
@@ -81,7 +81,7 @@ const quizData = [
         c: "4",
         d: "6",
         correct: "c",
-        image: "./../../src/img/telofase2.png",
+        image: "./../img/telofase2.png",
         explain: "A mitose origina duas células-filhas idênticas à célula-mãe. Enquanto isso, na meiose são geradas 4 células-filhas com material genético diferente ao da célula-mãe."
     },
     {
@@ -91,7 +91,7 @@ const quizData = [
         c: "Mesma versão de genes",
         d: "Se dividirem",
         correct: "b",
-        image: "./../../src/img/cromossomo.png",
+        image: "./../img/cromossomo.png",
         explain: "Os dois cromossomos de um par de homólogos são muito semelhantes entre si e têm o mesmo tamanho e forma. No entanto, não necessariamente têm as mesmas versões de genes."
     },
     
@@ -102,7 +102,7 @@ const quizData = [
         c: "Telófase",
         d: "Intérfase",
         correct: "d",
-        image: "./../../src/img/ciclo.jpg",
+        image: "./../img/ciclo.jpg",
         explain: "A intérfase é a preparação das células para a divisão, separada pelas três etapas, G1, S e G2"
     },
     {
@@ -112,7 +112,7 @@ const quizData = [
         c: "G2",
         d: "Nenhum dos anteriores",
         correct: "c",
-        image: "./../../src/img/espiral.gif",
+        image: "./../img/espiral.gif",
         explain: "Na terceira etapa da intérfase, G2, o DNA espiraliza/condensa gerando o formato de um cromossomo, começando assim a divisão."
     },
     {
@@ -122,7 +122,7 @@ const quizData = [
         c: "DNA é duplicado",
         d: "Não forma",
         correct: "c",
-        image: "./../../src/img/dna.png",
+        image: "./../img/dna.png",
         explain: "Na etapa S da intérfase, o DNA sofre uma duplicação, gerando um filamento novo, e o tão famoso formato X do cromossomo."
     },
 ];

@@ -450,7 +450,7 @@ body {
 }
 
 .botao-perdeu {
-    width: 100%;
+    width: 25%;
     background-color: transparent;
     border: 3px solid white;
     display: flex;
