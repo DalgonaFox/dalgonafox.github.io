@@ -29,6 +29,10 @@ body {
     font-family: 'Inter';
 }
 
+.botaotudo{
+    width: 100%;
+}
+
 .conteudo-pagina {
     align-items: center;
     width: 80%;
@@ -167,7 +171,6 @@ body {
 }
 
 .botao {
-    width: 100%;
     background-color: transparent;
     border: 1px solid #005592;
     display: flex;
@@ -431,6 +434,7 @@ body {
     border-width: 3px;
     padding: 20px;
     font-size: 36px;
+    width: 25%;
 }
 
 .jogar span:hover {
