@@ -8,17 +8,17 @@ body {
 
 @font-face { 
     font-family: CarterOne-regular; 
-    src: url('/src/fonts/CarterOne-Regular.ttf'); 
+    src: url('.../src/fonts/CarterOne-Regular.ttf'); 
 }
 
 @font-face { 
     font-family: BeVietnamPro; 
-    src: url('/src/fonts/BeVietnamPro-Black.ttf'); 
+    src: url('.../src/fonts/BeVietnamPro-Black.ttf'); 
 }
 
 @font-face { 
     font-family: Inter; 
-    src: url('/src/fonts/Inter.ttf'); 
+    src: url('.../src/fonts/Inter.ttf'); 
 }
 
 .conteudo {
